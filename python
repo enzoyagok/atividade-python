@@ -1,9 +1,1 @@
-idade = int(input("Digite sua idade: "))
-pode = (input("Você pode entrar S/N: "))
 
-if (idade >= 16) and (pode == "S"):
-  print("Entrada permitida")
-elif (idade >= 15) and (pode == "S") and (pode == "N"):
-  print("Entrada Negada")
-else:
-  print("Entrada Negada")
